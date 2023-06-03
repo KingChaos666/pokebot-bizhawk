@@ -19,7 +19,7 @@ use_spore: true
 catch:
 - shinies
 - perfect_ivs
-battle_others: true
+battle_others: false
 pokeball_priority:
 - premier_ball
 - ultra_ball
