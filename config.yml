@@ -1,5 +1,5 @@
 # Bot Setup
-bot_mode: Starters
+bot_mode: Move until obstructed
 coords:
   pos1:
     - 38
@@ -7,7 +7,7 @@ coords:
   pos2:
     - 39
     - 6
-direction: Horizontal
+direction: Vertical
 starter: Mudkip
 johto_starter: Cyndaquil
 fossil: Anorith
@@ -35,7 +35,7 @@ save_game_on_start: false
 
 # Pickup
 pickup: true
-pickup_threshold: 2 # Number of pickup items to find before collection
+pickup_threshold: 1 # Number of pickup items to find before collection
 
 # Logging
 encounter_log_limit: 100
