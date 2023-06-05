@@ -1,5 +1,5 @@
 # Bot Setup
-bot_mode: Starters
+bot_mode: Move until obstructed
 # sweet scent
 # bunny hop
 # move between coords
@@ -26,7 +26,7 @@ coords:
   pos2:
     - 39
     - 6
-direction: Horizontal
+direction: Vertical
 # Vertical
 # Horizontal
 starter: Mudkip
@@ -46,7 +46,7 @@ use_spore: true
 catch:
 - shinies
 - perfect_ivs
-battle_others: true
+battle_others: false
 pokeball_priority:
 - premier_ball
 - ultra_ball
@@ -62,7 +62,7 @@ save_game_on_start: false
 
 # Pickup
 pickup: true
-pickup_threshold: 3 # Number of pickup items to find before collection
+pickup_threshold: 1 # Number of pickup items to find before collection
 
 # Logging
 encounter_log_limit: 100
